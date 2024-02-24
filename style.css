@@ -1,0 +1,74 @@
+body{
+    background-image: url(https://img.freepik.com/premium-vector/geometric-gradient-technology-background_23-2149110132.jpg);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .login-container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: calc(100% - 40px);
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 25px;
+            border: 2px solid #ddd;
+            box-sizing: border-box;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+        
+        .login-container input[type="text"]:focus,
+        .login-container input[type="password"]:focus {
+            border-color: #3498db;
+        }
+        
+        .login-container input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 0;
+            border: none;
+            border-radius: 25px;
+            width: 100%;
+            cursor: pointer;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+        
+        .login-container input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+        
+        .login-container .bottom-text {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .login-container .bottom-text a {
+            color: #3498db;
+            text-decoration: none;
+        }
